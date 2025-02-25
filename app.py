@@ -5,7 +5,7 @@ import plotly.express as px
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users\pc/Desktop/analysis projects/E-commerece/datasets/Sample - Superstore.csv")  # Ensure dataset.csv exists
+    return pd.read_csv("Sample - Superstore.csv")  # Ensure dataset.csv exists
 
 df = load_data()
 
